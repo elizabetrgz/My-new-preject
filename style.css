@@ -2,6 +2,22 @@ body {
     font-family: 'Titillium Web', sans-serif;
 }
 
+section {
+    padding: 120px 0;
+}
+
+.btn {
+    font-size: 14px;
+    padding: 15px 26px;
+    min-width: 160px;
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
+    display: inline-block;
+}
+
 .navbar {
     background-color: #ffffff;
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .05);
@@ -43,4 +59,97 @@ body {
     max-width: 800px;
     margin: 0 auto 60px auto;
     text-align: center;
+}
+
+.content-center h1 {
+    font-size: 66px;
+    font-weight: 600;
+    line-height: 80px;
+    color: #1A3428;
+}
+
+.content-center p {
+    font-size: 10px;
+    color: #999999;
+    line-height: 1.8;
+    margin-bottom: 0;
+}
+
+.btn-light {
+    background: #ffffff;
+    color: black;
+    border: 2px solid #ffffff;
+    margin-top: 30px;
+}
+
+.btn i {
+    font-size: 14px;
+    margin-left: 5px;
+}
+
+
+/* --------------------------------------------Section Portafolio-------------------------------------------------------- */
+
+h2 {
+    margin-bottom: 30px;
+    font-size: 48px;
+}
+
+.portfolio-container {
+    position: relative;
+    overflow: hidden;
+    margin: 10px 0;
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
+    border: 1px solid rgb(253, 239, 239);
+}
+
+.portfolio-container img {
+    transition: all 0.8s;
+    -webkit-transition: all 0.8s;
+    -moz-transition: all 0.8s;
+    -ms-transition: all 0.8s;
+    -o-transition: all 0.8s;
+}
+
+.portfolio-container:hover img {
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
+}
+
+.portfolio-details {
+    position: absolute;
+    bottom: 25px;
+    left: 25px;
+    z-index: 9000;
+}
+
+.portfolio-details h2 {
+    font-size: 48px;
+    color: #F5CDAB;
+    margin-bottom: 0px;
+}
+
+.portfolio-details a:hover {
+    text-decoration: none;
+}
+
+.portfolio-details p {
+    color: #F5CDAB;
+}
+
+
+/*---------------------------------------------------------Responsive------------------------------------------------------------- */
+
+@media (max-width: 575.98px) {
+    .content-center h1 {
+        font-size: 40px;
+        line-height: normal;
+    }
 }
